@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "yarn clean && yarn build && node ./build/src/app.js",
-    "dev": "nodemon --inspect --ext \"js,json\" --exec babel-node src/app.js",
+    "start:dev": "nodemon --inspect --ext \"js,json\" --exec babel-node src/app.js",
     "clean": "rm -rf build && mkdir build",
     "build": "babel ./src -d ./build/src"
   },
