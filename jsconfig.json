@@ -4,8 +4,11 @@
     "paths": {
       "@routes/*": ["src/routes/*"],
       "@configs/*": ["src/configs/*"],
+      "@databases/*": ["src/databases/*"],
       "@helpers/*": ["src/common/helpers/*"],
-      "@middlewares/*": ["src/middlewares/*"]
+      "@middlewares/*": ["src/middlewares/*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@validations/*": ["src/validations/*"]
     }
   }
 }
